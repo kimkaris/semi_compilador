@@ -4,7 +4,7 @@ Trabalho de Introdução a Compiladores realizado em C, para processar a linguag
 - Utilizado como base esse repositório: https://github.com/AnjaneyaTripathi/c-compiler
 
 Realiza:
-- Análise léxica (identificação de erros, separação e impressão da lista de tokens);
+- Análise léxica
   - Identificação de erros;
   - Impressão da lista de tokens.
 - Análise sintática
