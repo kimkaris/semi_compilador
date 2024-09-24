@@ -4,9 +4,18 @@ Trabalho de Introdução a Compiladores realizado em C, para processar a linguag
 - Utilizado como base esse repositório: https://github.com/AnjaneyaTripathi/c-compiler
 
 Realiza:
-- Análise léxica;
-- Análise sintática;
-- Análise semântica (em partes).
+- Análise léxica (identificação de erros, separação e impressão da lista de tokens);
+  - Identificação de erros;
+  - Impressão da lista de tokens.
+- Análise sintática
+  - Identificação de erros;
+  - Criação e impressão da tabela de símbolos;
+  - Criação e impressão da árvore sintática abstrata (AST) binária;  
+- Análise semântica
+  - Identificação de erros;
+  - Verificação de declarações;
+  - Verificação de tipos;
+ Além disso, é possível realizar a implementação de funções secundárias e a chamada delas no código.
 
 ## Execução:
 - `lex lexer.l`  – cria o arquivo lex.yy.c.
