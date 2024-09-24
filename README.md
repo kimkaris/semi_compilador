@@ -14,7 +14,8 @@ Realiza:
 - Análise semântica
   - Identificação de erros;
   - Verificação de declarações;
-  - Verificação de tipos;
+  - Verificação de tipos.
+
  Além disso, é possível realizar a implementação de funções secundárias e a chamada delas no código.
 
 ## Execução:
