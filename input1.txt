@@ -1,0 +1,52 @@
+programa {
+    inclua biblioteca Util --> u
+
+    funcao teste1() {
+        real a;
+        a = 5.5;
+    }
+
+    funcao teste2() {
+        inteiro b;
+        b = 10;
+        b = 10 * 20 - 30;
+    }
+
+    funcao teste3() {
+        inteiro testando;
+
+        para (testando = 0; testando < 10; testando++) {
+            escreva("Olá mundo");
+            leia(testando);
+
+            se(testando > 100){
+                escreva("Maior que 100");
+            }
+            senao {
+                escreva("Não é maior que 100");
+            }
+        }
+        teste2();
+    }
+
+    funcao inicio() {
+        inteiro i;
+
+        i = 10; 
+        
+        escreva("Ola");
+        
+        se (i > 0){
+            escreva("Maior que zero");
+        } 
+        senao {
+            escreva("Não é maior que zero");
+        }
+
+        teste1();
+        teste2();
+        teste3();
+    }
+
+
+}
