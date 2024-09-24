@@ -8,7 +8,7 @@ Realiza:
 - Análise sintática;
 - Análise semântica (em partes).
 
-Execução:
+## Execução:
 - `lex lexer.l`  – cria o arquivo lex.yy.c.
 - `parser -d -v parser.y`  – gera o arquivo y.tab.h, y.tab.c e y.output para a gramática do compilador.
 - `gcc y.tab.c` – compila o arquivo do código y.tab.c, gerando o arquivo a.out
